@@ -1,4 +1,11 @@
 Personal Blog Website
+# Always use a space after a property name's colon, but no space between property and colon, for consistency reasons.
+
+# Explain code as needed, where possible.
+Use comments to explain code: What does it cover, what purpose does it serve, and why is the respective solution used or preferred?
+
+ # HTML Quotation Marks
+ When quoting attribute values, use double quotation marks.
 
 # Structure
 
@@ -18,10 +25,10 @@ There should be at least 3 imported files in the main CSS file, but the student 
 # Directories & Files
 
 Files are organized with a directory structure that separates files based on page and functionality.
-
+ 
 # Links
 
-There is an intentional user flow on each page with appropriate links as needed.
+There is an intentional user flow  on each page with appropriate links as needed.
 
 # Design
 
