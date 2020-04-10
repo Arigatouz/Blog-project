@@ -96,9 +96,9 @@ Blog Post
 # CRITERIA
 MEETS SPECIFICATIONS
 
-# Flexbox Based Layout
+# FlexBox Based Layout
 
-Uses Flexbox at least twice throughout the project to create a component or pattern
+Uses FlexBox at least twice throughout the project to create a component or pattern
 
 # Grid Based Layout
 

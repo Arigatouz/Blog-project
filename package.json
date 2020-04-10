@@ -1,0 +1,19 @@
+{
+  "name": "front-end-project",
+  "version": "1.0.0",
+  "description": "Personal Blog Website\r # Always use a space after a property name's colon, but no space between property and colon, for consistency reasons.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arigatouz/Udacity-Blog-project.git"
+  },
+  "author": "Ali Gamal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arigatouz/Udacity-Blog-project/issues"
+  },
+  "homepage": "https://github.com/Arigatouz/Udacity-Blog-project#readme"
+}
