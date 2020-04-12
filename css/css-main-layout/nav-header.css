@@ -53,13 +53,12 @@
 .header {
     grid-area: header;
     position: relative;
-    /* margin-top: 13rem; */
+    margin-top: -13rem;
     height: 80vh;
     background-image: linear-gradient( to top, rgba(0, 0, 0, 0.7), rgba(151, 139, 139, 0.3)), url(../../images/header-img/header-high.jpg);
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
-    position: relative;
 }
 
 .header__text {
