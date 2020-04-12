@@ -1,0 +1,85 @@
+.nav {
+    grid-area: nav;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    min-width: 95%;
+    justify-content: space-evenly;
+    background-color: #2d2d2d;
+    height: 10rem;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.432);
+    /* border: 1px solid blue; */
+}
+
+.nav__description {
+    margin-top: 0.6rem;
+    margin-right: 30.5rem;
+    font-family: "Girassol", cursive, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    letter-spacing: 2rem;
+    background: transparent;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    font-weight: 100;
+}
+
+.nav__box {
+    position: absolute;
+    left: 37%;
+    bottom: -100%;
+    z-index: 2;
+}
+
+.nav__image {
+    width: 20rem;
+    height: 20rem;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__links {
+    text-decoration: none;
+    color: #76c59b;
+    font-size: 3rem;
+}
+
+.nav__links:hover {
+    color: rgba(202, 34, 98, 0.884);
+}
+
+.header {
+    grid-area: header;
+    position: relative;
+    /* margin-top: 13rem; */
+    height: 80vh;
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.7), rgba(151, 139, 139, 0.3)), url(../../images/header-img/header-high.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+    position: relative;
+}
+
+.header__text {
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -30%);
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    text-shadow: 2px 8px 5px rgba(0, 0, 0, 0.7);
+}
+
+.header__text h1 {
+    font-weight: 300;
+}
+
+.header__text p {
+    text-align: center;
+    margin-left: 6rem;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+}

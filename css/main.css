@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,500;1,700&display=swap');
+
+/* raleway */
+
 @import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
 
 /*Girassol*/
 
 @import url("./css-main-layout/layout.css");
+@import url("./css-main-layout/nav-header.css");
+@import url("./css-main-layout/about-blogs.css");

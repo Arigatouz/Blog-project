@@ -1,14 +1,27 @@
 /* Used colors for backGround Color #333 */
 
+
+/* logo color #47555E */
+
 * {
+    scroll-behavior: smooth;
     font-size: 62.5%;
-    margin: 0;
+    margin: 1rem;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Girassol", Arial, Helvetica, sans-serif;
 }
 
 body {
+    font-size: 30rem;
     background-color: #333;
-    font-size: 5rem;
+}
+
+.container {
+    position: relative;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(3rem, auto);
+    grid-template-areas: "nav" "header" "about" "blogs" "ft";
+    grid-row-gap: 10rem;
 }

@@ -1,5 +1,11 @@
 {
   "cSpell.words": [
-    "girassol"
+    "girassol",
+    "minmax"
+  ],
+  "cSpell.ignoreWords": [
+    "aboutme",
+    "myphoto",
+    "webm"
   ]
 }
