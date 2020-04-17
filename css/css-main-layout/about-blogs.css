@@ -5,6 +5,9 @@
     position: relative;
 }
 
+
+/* ----------------Video---------------------- */
+
 .bg-video {
     width: 100%;
     height: 100%;
@@ -22,12 +25,16 @@
     opacity: 0.5;
 }
 
+
+/* ----------------About me section ---------------- */
+
 .content {
     position: relative;
     /* border: 3px solid purple; */
     border-radius: 5rem;
     margin: 20rem;
     background-color: #fff;
+    box-shadow: 1rem 3rem 1rem rgba(0, 0, 0, 0.8);
     opacity: 0.8;
     transform: skew(20deg);
 }
@@ -79,6 +86,11 @@
     font-weight: 700;
 }
 
+#myname {
+    display: inline;
+    margin: 0 221px;
+}
+
 .content__text span {
     display: block;
     font-size: 3rem;
@@ -86,4 +98,84 @@
     color: #59b483;
     text-align: center;
     padding-bottom: 2rem;
+    font-style: italic;
+}
+
+
+/* --------------------Blogs section -------------- */
+
+.blog__section {
+    grid-area: blogs;
+    font-family: "raleway", Arial, Helvetica, sans-serif;
+}
+
+.blogs {
+    display: flex;
+}
+
+.blogs__head {
+    font-size: 8rem;
+    margin-bottom: 5rem;
+}
+
+.blogs__head,
+.blogs__content h3 {
+    background: linear-gradient(to top, #E4E5E6, #59b483);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.fa-blog {
+    color: #59b483;
+    font-size: 7rem;
+}
+
+.blogs__card {
+    border: 1px solid darkorchid;
+    width: 33.333333%;
+    margin-left: 1rem;
+    height: 75vh;
+}
+
+.blogs__card--one {
+    height: 40vh;
+    background-image: linear-gradient(to left, rgba(183, 12, 189, 0.397), rgba(53, 126, 221, 0.5)), url(../../images/Photos/crona-low.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blogs__card--two {
+    height: 40vh;
+    background-image: linear-gradient(to left, rgba(103, 94, 104, 0.397), rgba(3, 3, 3, 0.664)), url(../../images/Photos/book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blogs__card--three {
+    height: 40vh;
+    background-image: linear-gradient(to left, rgba(183, 12, 189, 0.397), rgba(53, 126, 221, 0.5)), url(../../images/Photos/programming-post-low.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blogs__content h3 {
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.blogs__content p {
+    line-height: 1.4em;
+    margin: 1.2rem;
+    text-align: left;
+    font-size: 2.3rem;
+    color: #fff;
+}
+
+.blogs__content a {
+    padding-left: 5rem;
+    font-size: 1.8rem;
+    color: #59b483;
+    text-decoration: none;
 }

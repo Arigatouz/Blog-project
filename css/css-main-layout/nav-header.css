@@ -1,21 +1,23 @@
+/* ------------nav bar ------------------- */
+
 .nav {
     grid-area: nav;
     position: fixed;
     display: flex;
     z-index: 10;
     min-width: 95%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     background-color: #2d2d2d;
     height: 10rem;
-    border: 1px solid rgba(0, 0, 0, 0.432);
-    box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.432);
-    /* border: 1px solid blue; */
+    border: 1px solid rgba(0, 0, 0, 0.632);
+    box-shadow: 0.5rem 2rem 3rem rgba(0, 0, 0, 0.432);
 }
 
 .nav__description {
-    margin-top: 0.6rem;
-    margin-right: 30.5rem;
+    margin-left: 10rem;
     font-family: "Girassol", cursive, Arial, Helvetica, sans-serif;
+    font-size: 4rem;
     color: #ffffff;
     letter-spacing: 2rem;
     background: transparent;
@@ -25,8 +27,7 @@
 
 .nav__box {
     position: absolute;
-    left: 37%;
-    bottom: -100%;
+    left: 42%;
     z-index: 2;
 }
 
@@ -35,9 +36,14 @@
     height: 20rem;
 }
 
+.nav__menu {
+    width: 50%;
+}
+
 .nav__list {
-    display: flex;
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav__links {
@@ -50,15 +56,19 @@
     color: rgba(202, 34, 98, 0.884);
 }
 
+
+/* ----------------Main header---------------------- */
+
 .header {
     grid-area: header;
     position: relative;
-    margin-top: -13rem;
-    height: 80vh;
+    margin-top: 8rem;
+    height: 85vh;
     background-image: linear-gradient( to top, rgba(0, 0, 0, 0.7), rgba(151, 139, 139, 0.3)), url(../../images/header-img/header-high.jpg);
     background-size: cover;
-    background-position: center;
-    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 95%);
 }
 
 .header__text {
@@ -66,18 +76,20 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-70%, -30%);
+    width: 100%;
+    transform: translate(-20%, -50%);
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     text-shadow: 2px 8px 5px rgba(0, 0, 0, 0.7);
 }
 
-.header__text h1 {
+.header__text h2 {
+    font-size: 8rem;
     font-weight: 300;
 }
 
 .header__text p {
-    text-align: center;
-    margin-left: 6rem;
+    text-align: left;
+    margin-left: 16rem;
     font-size: 3rem;
     font-weight: 700;
     font-style: italic;

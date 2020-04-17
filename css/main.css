@@ -6,6 +6,10 @@
 
 /*Girassol*/
 
+
+/* this is the main page css */
+
 @import url("./css-main-layout/layout.css");
 @import url("./css-main-layout/nav-header.css");
 @import url("./css-main-layout/about-blogs.css");
+@import url("./css-main-layout/footer.css");
