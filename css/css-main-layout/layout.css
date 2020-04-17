@@ -15,6 +15,7 @@ html {
 }
 
 body {
+    transition: all 0.3s ease-out;
     margin: 5rem;
     background-color: #333;
 }
@@ -27,4 +28,22 @@ body {
     grid-auto-rows: minmax(3rem, auto);
     grid-template-areas: "nav" "header" "about" "blogs" "ft";
     grid-row-gap: 5rem;
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        margin: 2.5rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body {
+        margin: 0.5rem;
+    }
 }
