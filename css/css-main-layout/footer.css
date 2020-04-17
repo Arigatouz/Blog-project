@@ -51,3 +51,14 @@
     color: gray;
     background-color: antiquewhite;
 }
+
+@media screen and (max-width:550px) {
+    .main__footer {
+        flex-flow: column nowrap;
+        height: 30vh;
+    }
+    .main__footer__text {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+}

@@ -5,7 +5,7 @@
     position: fixed;
     display: flex;
     z-index: 10;
-    width: 95%;
+    width: 95vw;
     align-items: center;
     background-color: #2d2d2d;
     height: 10rem;
@@ -63,6 +63,7 @@
     grid-area: header;
     position: relative;
     margin-top: 8rem;
+    width: 100vw;
     height: 85vh;
     background-image: linear-gradient( to top, rgba(0, 0, 0, 0.7), rgba(151, 139, 139, 0.3)), url(../../images/header-img/header-high.jpg);
     background-size: cover;
@@ -128,7 +129,7 @@
         height: 18rem;
     }
     .nav {
-        width: 93%;
+        /* width: 93%; */
     }
     .header__text h2 {
         font-size: 5rem;
@@ -168,7 +169,7 @@
 
 @media screen and (max-width:980px) {
     .nav {
-        width: 95%;
+        /* width: 95%; */
     }
     .nav__description {
         font-size: 1.3rem;
@@ -186,7 +187,7 @@
 
 @media screen and (max-width:800px) {
     .nav {
-        width: 95%;
+        /* width: 75%; */
         justify-content: center;
     }
     .nav__description {
@@ -203,13 +204,37 @@
     }
 }
 
-
-/* @media screen and (max-width:633px) {
-        .nav__description {
-            font-size: 1rem;
-            margin-left: 1rem;
-            letter-spacing: 0.2rem;
-        }
-        .nav__links {
-            font-size: 1.5rem;
-        } */
+@media screen and (max-width:550px) {
+    .nav {
+        flex-flow: column nowrap;
+        position: relative;
+    }
+    .nav__description {
+        position: absolute;
+        left: 0;
+    }
+    .nav__image {
+        margin-left: 20rem;
+        margin-top: 10rem;
+        height: 10rem;
+        width: 10rem;
+    }
+    .nav__menu {
+        margin-top: 6.7rem;
+    }
+    .nav__links {
+        margin-left: 2rem;
+    }
+    .header__text {
+        top: 40%;
+        left: 30%;
+    }
+    .header__text h2 {
+        font-size: 2rem;
+    }
+    .header__text p {
+        text-align: left;
+        font-size: 1em;
+        margin-left: 10rem;
+    }
+}
