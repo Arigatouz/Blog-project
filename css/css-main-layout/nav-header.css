@@ -85,6 +85,7 @@
 .header__text h2 {
     font-size: 8rem;
     font-weight: 300;
+    transition: all 0.3s;
 }
 
 .header__text p {
@@ -93,6 +94,7 @@
     font-size: 3rem;
     font-weight: 700;
     font-style: italic;
+    transition: all 0.3s;
 }
 
 @media screen and (max-width:1750px) {
@@ -106,6 +108,9 @@
     .nav__description {
         font-size: 2.04rem;
         letter-spacing: 1.9rem;
+    }
+    .header__text h2 {
+        font-size: 6rem;
     }
 }
 
@@ -125,6 +130,9 @@
     .nav {
         width: 93%;
     }
+    .header__text h2 {
+        font-size: 5rem;
+    }
 }
 
 @media screen and (max-width:1320px) {
@@ -132,6 +140,12 @@
         font-size: 1.8rem;
         margin-left: 5rem;
         letter-spacing: 1.2rem;
+    }
+    .header__text h2 {
+        font-size: 4rem;
+    }
+    .header__text p {
+        font-size: 2rem;
     }
 }
 
@@ -143,6 +157,12 @@
     }
     .nav__links {
         font-size: 2.2;
+    }
+    .header__text h2 {
+        font-size: 3rem;
+    }
+    .header__text p {
+        font-size: 1.5rem;
     }
 }
 
