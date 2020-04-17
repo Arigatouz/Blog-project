@@ -208,6 +208,8 @@
     .nav {
         flex-flow: column nowrap;
         position: relative;
+        width: 90%;
+        margin-right: 0;
     }
     .nav__description {
         position: absolute;
@@ -224,6 +226,9 @@
     }
     .nav__links {
         margin-left: 2rem;
+    }
+    .header {
+        width: 95%;
     }
     .header__text {
         top: 40%;
