@@ -55,10 +55,14 @@
 @media screen and (max-width:550px) {
     .main__footer {
         flex-flow: column nowrap;
+        width: 95%;
         height: 30vh;
     }
     .main__footer__text {
         margin-top: 2rem;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
+    }
+    .main__footer__contact {
+        font-size: 4rem;
     }
 }
